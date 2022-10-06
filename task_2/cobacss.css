@@ -1,0 +1,52 @@
+ .ini-form{
+  display:flex;
+  justify-content: center;
+}
+
+.ini-poster{
+  display:flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+
+}
+
+#judul {
+  text-transform: capitalize;
+  padding-bottom: 0em;
+
+}
+
+#ini-tabel-poster{
+  background-color: white;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size:     cover;                  
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
+
+table{
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+input[type=text],
+textarea{
+  width: 300px;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 0.25rem;
+}
+
+label{
+  margin: 5px;
+}
+
+fieldset{
+  border-radius: 0.5rem;
+}
