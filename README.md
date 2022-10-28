@@ -1,6 +1,6 @@
 # PemWeb
 Berisi tugas tugas yang ada di MK Pemrograman Web
 <br><br>
-Nama&ensp;: Enrico Johanes.S  
-NIM&ensp;: 119140021  
-Kelas&ensp;: Pemrograman Web RA  
+Nama  : Enrico Johanes.S<br>
+NIM   : 119140021<br>
+Kelas : Pemrograman Web RA<br>
