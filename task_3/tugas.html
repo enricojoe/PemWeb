@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+	<title>Enrico Johanes</title>
+</head>
+<body>
+	<div id="header" class="section">
+		<img id="foto"  src="static/image/coba.png">
+		<div id="perkenalan">
+			<h1>
+				Hallo, saya <div onmouseover="fungsiTambah();" onmouseout="fungsiHapus();">E<a onclick="fungsiku('normal');" id="normal">n</a>r<a onclick="fungsiku('italic');" id="miring">i</a>co Joha<a onclick="fungsiku('normal');" id="normal">n</a>es.<a onclick="alert('TERIMA KASIH TELAH MENCOBA')">S</a></div>
+
+			</h1>
+			<h2>
+				Seorang mahasiswa biasa dari ITERA
+			</h2>
+			<div id="navbar">
+				<a href="#tentang-saya">Tentang Saya</a>
+				<a href="#pengalaman-kerja">Pengalaman Kerja</a>
+				<a href="#hubungi-saya">Hubungi Saya</a>
+			</div>
+		</div>
+		
+	</div>
+</body>
+<script>
+	let header = document.getElementById('perkenalan');
+	let kenal = header.getElementsByTagName('h1')[0];
+
+	let ket = document.createElement('h5');
+	ket.appendChild(document.createTextNode('*Pada nama, klik huruf i untuk Italic, klik huruf n untuk kembali normal'));
+	ket.appendChild(document.createElement('br'));
+	ket.appendChild(document.createTextNode('Hover nama untuk data diri'));
+	header.appendChild(ket);
+
+	function fungsiku(gaya){
+		kenal.style.fontStyle = gaya;
+	}
+
+	function fungsiTambah(){
+		let tambah = document.createElement('h6');
+
+		tambah.appendChild(document.createTextNode('Prodi : Teknik Informatika'));
+		tambah.appendChild(document.createElement('br'));
+		tambah.appendChild(document.createTextNode('Kelas : Pemrograman Web RA'));
+		tambah.appendChild(document.createElement('br'));
+		tambah.appendChild(document.createTextNode('NIM : 119140021'));
+		
+		kenal.appendChild(tambah);
+	}
+	function fungsiHapus() {
+		let h6 = kenal.getElementsByTagName('h6');
+		h6[0].parentNode.removeChild(h6[0]);
+	}
+
+</script>
+<footer>
+  &copy; EnJoe (119140021)
+</footer>
+</html>

@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+body{
+	background-color: #DFF6FF;
+	padding: 0 2em;
+	font-family: Montserrat, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #DFF6FF;
+}
+h6 {
+	margin: 0;
+}
+
+#header{
+	display: flex;
+	background: 
+		url(../image/header-cloud.png) top repeat-x,
+		url(../image/header.png) no-repeat right top, 
+		#06283D;
+	background-size: 500px, auto;
+	padding: 0px;
+}
+#header>div{
+	color: #DFF6FF;
+	padding-left: 20px;
+	position: relative;
+	margin: auto 0px auto -10px;
+}
+
+#foto{
+	width: 42.5%;
+	position: relative;
+	/*left: 50%;*/
+}
+
+#navbar{
+	border-radius: 10px;
+	background-color: #1363DF;
+	/*padding: 20px 20px 20px 0px;*/
+}
+#navbar a{
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#pengalaman-kerja{
+	align-content: right;
+}
+
+#judul-section{
+	color: #06283D;
+}
+#kontak img{
+	width: 20px;
+}
+#tombol{
+	width: 30%;
+	background-color: red;
+	position: absolute;
+}
+#geser{
+	position: absolute;
+}
+#video{
+	width: 50%;
+}
+
+.section{
+	background-color: #47B5FF;
+	border-radius: 20px;
+	padding: 10px 20% 10px 20%;
+	margin: 10px;
+
+}
+
+.pengalaman-kerja {
+  background: #06283D;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  margin: 2em 0;
+  min-width: 300px; // adjust to your needs
+  padding: 10px;
+}
+
